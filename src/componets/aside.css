@@ -1,0 +1,69 @@
+aside{
+    height: 100rem;
+    width: 100vw;
+    padding: 16rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:var(--brand-green-light-02);
+}
+aside h4{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: var(--brand-green);
+    /* text-align: center; */
+}
+aside h2{
+    margin-top: 1.6rem;
+    width: 49rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--gray-headline);
+}
+
+.cards{
+    margin-top: 6.4rem;
+    height: 104rem;
+    width: 100vw;
+    padding: 0 28rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-infor{
+    width: 36rem;
+    height: 24rem;
+    padding: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid var(--brand-green-light);
+    border-radius: 1rem;
+}
+.card-infor h3{
+    margin: 1.6rem 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--gray-headline);
+
+}
+.card-infor p{
+    padding: 0 .1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--gray-paragraph);
+    line-height: 150%;
+}
+.svg-check{
+    height: 2.4rem;
+    padding: .6rem;
+    background-color: var(--brand-green-light);
+    border-radius: 100%;
+}
